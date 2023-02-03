@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SeleniumFrameworkDesign" />
+        <module name="GitDemo" />
       </profile>
     </annotationProcessing>
   </component>
