@@ -18,7 +18,7 @@ public class ErrorValidations extends BaseTest {
 
         String productName = "ZARA COAT 3";
         landingPage.loginApplication("hgfhfgh@gmail.com", "Dupa1234456");
-        Assert.assertEquals("Incorrect emaoil or password.",landingPage.getErrorMessage());
+        Assert.assertEquals("Incorrect emaoil21 or password.",landingPage.getErrorMessage());
     }
     @Test
     public void ProductErrorValidation() throws IOException {
