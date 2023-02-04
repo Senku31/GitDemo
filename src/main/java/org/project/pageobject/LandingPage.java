@@ -33,8 +33,7 @@ public class LandingPage extends AbstractComponent {
         userPassword.sendKeys(password);
         submit.click();
         System.out.println("dupa");
-        System.out.println("dupa");
-        System.out.println("dupa");
+        System.out.println("dev");
         ProductCatalog productCatalog = new ProductCatalog(driver);
         return productCatalog;
     }
