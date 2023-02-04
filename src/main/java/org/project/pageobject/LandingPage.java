@@ -34,6 +34,7 @@ public class LandingPage extends AbstractComponent {
         submit.click();
         System.out.println("dupa");
         System.out.println("dev");
+        System.out.println("merge");
         ProductCatalog productCatalog = new ProductCatalog(driver);
         return productCatalog;
     }
